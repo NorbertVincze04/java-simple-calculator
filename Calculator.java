@@ -29,7 +29,7 @@ public class Calculator extends JFrame implements ActionListener {
         for (String label : buttons) {
             JButton button = new JButton(label);
             if (label.matches("[/*\\-+=]")) {
-                button.setBackground(Color.blue);
+                button.setBackground(Color.ORANGE);
                 button.setForeground(Color.WHITE);
             } else if (label.equals("C")) {
                 button.setBackground(Color.RED);
